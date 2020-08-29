@@ -52,7 +52,7 @@ limitations under the License.
     <repoid>apache.staging.https</repoid>
     <repourl>https://repository.apache.org/service/local/staging/deploy/maven2/</repourl>
     <reponame>Apache Staging Repository</reponame>
-    <repo.maven.org>http://repo1.maven.org/maven2</repo.maven.org>
+    <repo.maven.org>https://repo1.maven.org/maven2</repo.maven.org>
     <publicrepoid>public</publicrepoid>
     <avro.version>1.7.3</avro.version>
     <elasticsearch.version>0.90.1</elasticsearch.version>
@@ -684,7 +684,7 @@ limitations under the License.
 
     <pluginRepository>
       <id>repo1.maven.org</id>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo1.maven.org/maven2</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -717,7 +717,7 @@ limitations under the License.
     </repository> 
     <repository>
       <id>repo1.maven.org</id>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo1.maven.org/maven2</url>
       <releases>
         <enabled>true</enabled>
       </releases>
