@@ -21,6 +21,7 @@
 package org.apache.flume.channel;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -47,7 +48,7 @@ public class TestSpillableMemoryChannel {
   @Rule
   public TemporaryFolder fileChannelDir = new TemporaryFolder();
 
-  private void configureChannel(Map<String, String> overrides) {
+  private void configureChannel(Map<String, String> overrides) throws IOException {
     Context context = new Context();
     File checkPointDir = fileChannelDir.newFolder("checkpoint");
     File dataDir = fileChannelDir.newFolder("data");
